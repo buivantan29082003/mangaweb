@@ -6,6 +6,7 @@ It allows users to search for works, read chapters, follow, like, bookmark, and 
 ---
 
 ## 📌 **Features**
+🔐 Secure user authentication and authorization with Spring Security.
 ---
 
 ## 👤 **User Features**
@@ -14,18 +15,19 @@ It allows users to search for works, read chapters, follow, like, bookmark, and 
 - 📖 **Read chapters** of available works.  
 - 📚 **Manage personal lists** including bookmarks, followed works, and account information.  
 - 🔐 **Sign up and sign in**.  
-- 💳 **Register premium packages** and make online payments.  
-
+- 💳 **Register premium packages** and make online payments.
+- 💬 **Comment, in chapter, delete, update comment**
+- 🔔 **Recive notification about new manga, chapter, payment,...**
+- 🧾 **View your registration and payment transaction**
 ---
 
 ## 🛠️ **Admin Features**
 - 📘 **Manage works**: add new works, add chapters, update status and information, delete works, and view work traffic analytics.  
 - 📦 **Manage reading packages**.  
 - 👥 **Manage user accounts**.  
-- 📊 **View statistical reports** (revenue, subscriptions, traffic, etc.).  
+- 📊 **View statistical reports** (subscriptions, traffic, etc.).  
 
 ---
-
 ## 🗂️ **Project Structure**
 
 ### **Backend (BE)**
@@ -39,6 +41,7 @@ It allows users to search for works, read chapters, follow, like, bookmark, and 
 ├── Services/            # Business logic implementation.
 ├── Response/            # Standardized API response structures.
 ├── Routes/              # API endpoint definitions.
+├── others folders/
 ...
 ```
 
@@ -60,7 +63,7 @@ It allows users to search for works, read chapters, follow, like, bookmark, and 
 **Backend API:** Laravel 12 - PHP
 **ORM:** Eloquent.
 **Database:** MySQL  
-**Frontend:** ReactJS, TailwindCSS, Redux  
+**Frontend:** ReactJS, TailwindCSS, Redux. 
 
 ---
 
