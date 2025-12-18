@@ -127,8 +127,8 @@ Route::prefix('admin')
     }); 
 
 Route::post('/login',[AuthController::class,"login"]);
-Route::post('/refresh',[AuthController::class,"refresh"]);
 
+Route::post('/refresh',[AuthController::class,"refresh"])->middleware("auth:api");
 Route::get('/payment/callback',[RegistrationController::class,"callBackPayment"]);
 
 

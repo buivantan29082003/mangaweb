@@ -10,7 +10,7 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller{
 
-    public function login(Request $request){ 
+    public function login(Request $request){  
         $credentials = $request->only('email', 'password');
         $token = Auth::guard('api')->attempt($credentials); 
         if($token){

@@ -1,7 +1,6 @@
-import axios from "axios";
-import commonApi from "../../../config/api/CommonApi"
+ import commonApi from "../../../config/api/CommonApi"
 
-export const signIn=(dataLogin)=>{
+export const signIn=(dataLogin)=>{  
     return commonApi.post("/login",dataLogin).then(v=>{
         return v.data.data;
     })
