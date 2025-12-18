@@ -88,6 +88,11 @@ It allows users to search for works, read chapters, follow, like, bookmark, and 
 ### Packages
 ![alt](https://github.com/buivantan29082003/Novelist/blob/main/packages.png)
 ![alt](https://github.com/buivantan29082003/Novelist/blob/main/register.png) 
+![alt](https://github.com/buivantan29082003/mangaweb/blob/main/images/Payment.png)
+
+### Notification
+![alt](https://github.com/buivantan29082003/mangaweb/blob/main/images/notification.png)
+
 
 ### And others pages.
 
