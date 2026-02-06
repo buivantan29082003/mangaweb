@@ -126,13 +126,9 @@ Route::prefix('admin')
          
     }); 
 
-Route::post('/login',[AuthController::class,"login"]);
-
+Route::post('/login',[AuthController::class,"login"]); 
 Route::post('/refresh',[AuthController::class,"refresh"])->middleware("auth:api");
-Route::get('/payment/callback',[RegistrationController::class,"callBackPayment"]);
-
-
-
+Route::get('/payment/callback',[RegistrationController::class,"callBackPayment"]); 
 Route::get('/genres',[GenreController::class,"getAll"]);
 Route::get('/authors',[AuthorController::class,"getAll"]);
 Route::get('/status',[StatusController::class,"getAll"]);
